@@ -1,5 +1,5 @@
 body {
-    background: url("/images/book-2588514_1920.jpg");
+    background: url("https://kushagragangwarr.github.io/E-Diary/images/book-2588514_1920.jpg");
     background-size: cover;
 }
 
@@ -76,7 +76,7 @@ p a:visited {
 
 @media (max-width: 766px) {
     body {
-        background: url("/images/maple-leaf-638022_1920.jpg");
+        background: url("https://kushagragangwarr.github.io/E-Diary/images/maple-leaf-638022_1920.jpg");
     }
     div#random-text p,
     div#random-text h1 {
