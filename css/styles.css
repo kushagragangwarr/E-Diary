@@ -1,5 +1,5 @@
 body {
-    background: url("images/diary_background.jpg");
+    background: url("/images/book-2588514_1920.jpg");
     background-size: cover;
 }
 
@@ -7,7 +7,7 @@ body {
 /* navbar starting */
 
 .navbar {
-    background-color: rgba(128, 128, 128, 0.2);
+    background-color: rgba(128, 128, 128, 0.3);
 }
 
 #nav-img {
@@ -25,7 +25,7 @@ h1 span {
 span h1 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 50px;
-    color: deeppink;
+    color: purple;
 }
 
 li a.nav-link span {
@@ -44,6 +44,11 @@ li a.nav-link span {
 #button-text {
     /* width: 320px; */
     width: 100%;
+}
+
+div#random-text p,
+div#random-text h1 {
+    margin-left: 100px;
 }
 
 div#signup {
@@ -68,6 +73,16 @@ p a:visited {
 
 
 /* form end */
+
+@media (max-width: 766px) {
+    body {
+        background: url("/images/maple-leaf-638022_1920.jpg");
+    }
+    div#random-text p,
+    div#random-text h1 {
+        margin-left: 15px;
+    }
+}
 
 @media (min-width: 767px) and (max-width: 1023px) {
     div.random-text {
