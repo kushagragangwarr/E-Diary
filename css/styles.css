@@ -1,0 +1,76 @@
+body {
+    background: url("C:/Users/Kushagra Gangwar/Downloads/50.jpg");
+    background-size: cover;
+}
+
+
+/* navbar starting */
+
+.navbar {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+#nav-img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    opacity: 0.85;
+}
+
+h1 span {
+    letter-spacing: 2px;
+}
+
+span h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+    color: deeppink;
+}
+
+li a.nav-link span {
+    color: black
+}
+
+
+/*navbar end */
+
+
+/* form start */
+
+#name-text,
+#email-text,
+#pass-text,
+#button-text {
+    /* width: 320px; */
+    width: 100%;
+}
+
+div#signup {
+    padding: 40px;
+}
+
+div h1.title-font {
+    color: deeppink;
+}
+
+section div hr {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+p a:active,
+p a:link,
+p a:visited {
+    color: deeppink;
+    text-decoration: none;
+}
+
+
+/* form end */
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    div.random-text {
+        margin-right: 50px;
+    }
+}
