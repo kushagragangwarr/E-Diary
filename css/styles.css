@@ -27,6 +27,9 @@ h1 span {
     letter-spacing: 2px;
 }
 
+
+/* positioning the header */
+
 span h1 {
     position: absolute;
     top: 9px;
