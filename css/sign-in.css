@@ -46,8 +46,8 @@ span h1 {
     color: purple;
 }
 
-li a.nav-link span {
-    color: black
+a.nav-link:hover {
+    color: black !important;
 }
 
 
@@ -115,6 +115,9 @@ div#footer span {
     div#random-text p,
     div#random-text h1 {
         margin-left: 15px;
+    }
+    li.nav-item a {
+        float: right;
     }
 }
 
