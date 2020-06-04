@@ -63,16 +63,12 @@ li a.nav-link span {
     width: 100%;
 }
 
-div#random-text p,
-div#random-text h1 {
-    margin-left: 100px;
-}
-
-div#signup {
+div#sign-in {
     padding: 40px;
 }
 
-div h1.title-font {
+div#random-text h2 {
+    /* margin-left: 100px; */
     color: deeppink;
 }
 
@@ -122,9 +118,12 @@ div#footer span {
     }
 }
 
-@media (min-width: 767px) and (max-width: 1023px) {
-    div.random-text {
-        margin-right: 50px;
+
+/* @media (min-width: 767px) and (max-width: 1023px) {} */
+
+@media (min-width: 1024px) {
+    div#random-text h2 {
+        margin-left: 100px;
     }
 }
 
