@@ -63,6 +63,12 @@ a.nav-link:hover {
     width: 100%;
 }
 
+#name-text:focus,
+#email-text:focus,
+#pass-text:focus {
+    border-bottom: 2px solid hotpink !important;
+}
+
 div#random-text p,
 div#random-text h1 {
     margin-left: 100px;
