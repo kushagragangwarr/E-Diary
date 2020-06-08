@@ -32,3 +32,7 @@ function userEntry(jsonHttp) {
 }*/
 
 // window.open("http://127.0.0.1:5501/E-Diary/snippets/user-space.html", "_self");
+
+document.getElementById("button-text").addEventListener("click", function() {
+    alert("Sorry, Backend Work Yet to be completed !\nCome Back Later.");
+});
